@@ -19,11 +19,11 @@
           max="999999"
           placeholder="Enter Amount to deposit"
         />
-        <label for="widthdraw">Yank: </label>
+        <label for="withdraw">Yank: </label>
         <input
           type="number"
-          id="widthdraw"
-          name="widthdraw"
+          id="withdraw"
+          name="withdraw"
           min="0"
           max="999999"
           placeholder="Enter Amount to draw"
@@ -31,6 +31,87 @@
 
         <input type="submit" value="Get Robbed" />
     </form>
+
+
+
+
+    <div id="bank-tax">Tax Amount: <span id="tax">_</span></div>
+
+    <form id="tax-form">
+      <label for="tax-rate">Rate: </label>
+
+      <input
+        type="number"
+        id="tax-rate"
+        name="tax-rate"
+        min="0"
+        max="999999"
+        placeholder="Tax-rate"
+      />
+
+      <label for="tot">Total: </label>
+
+      <input
+        type="number"
+        id="tot"
+        name="tot"
+        min="0"
+        max="999999"
+        placeholder="Enter Amount to tot"
+      />
+
+      <input type="submit" value="Git me Money!" />
+  </form>
+
+
+
+
+  <div id="Area-of-a-circle">Account Total: <span id="circle">_</span></div>
+  <form id="circle-form">
+      <label for= "radius">Radius: </label>
+
+      <input
+        type="number"
+        id= "radius"
+        name= "radius"
+        min="0"
+        max="999999"
+        placeholder="Enter Radius"
+      />
+
+      <input type="submit" value="Get Circle Area Answer" />
+  </form>
+
+
+
+  <div id="area-of-a-hypotenuse">Account Total: <span id="hypotenuse">_</span></div>
+  <form id="hypotenuse-form">
+      <label for= "a">A: </label>
+
+      <input
+        type="number"
+        id= "adjacent"
+        name= "a"
+        min="0"
+        max="999999"
+        placeholder="Enter A"
+      />
+      <label for= "b">B: </label>
+
+      <input
+        type="number"
+        id= "opposite"
+        name= "b"
+        min="0"
+        max="999999"
+        placeholder="Enter B"
+      />
+
+      <input type="submit" value="Get hypotenuse Area Answer" />
+  </form>
+
+  
+ 
   </body>
 
   <script src="./script.js"></script>
