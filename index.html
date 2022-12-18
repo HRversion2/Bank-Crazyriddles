@@ -1,66 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="bank-container">Account Total: <span id="total">1000</span></div>
-    <form id="bank-form">
-        <label for="deposit">Dunk: </label>
 
-        <input
-          type="number"
-          id="deposit"
-          name="deposit"
-          min="0"
-          max="999999"
-          placeholder="Enter Amount to deposit"
-        />
-        <label for="withdraw">Yank: </label>
-        <input
-          type="number"
-          id="withdraw"
-          name="withdraw"
-          min="0"
-          max="999999"
-          placeholder="Enter Amount to draw"
-        />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
 
-        <input type="submit" value="Get Robbed" />
-    </form>
+<body>
+  <div id="bank-container">Account Total: <span id="total">1000</span></div>
+  <form id="bank-form">
+    <label for="deposit">Dunk: </label>
+
+    <input type="number" id="deposit" name="deposit" min="0" max="999999" placeholder="Enter Amount to deposit" />
+    <label for="withdraw">Yank: </label>
+    <input type="number" id="withdraw" name="withdraw" min="0" max="999999" placeholder="Enter Amount to draw" />
+
+    <input type="submit" value="Get Robbed" />
+  </form>
 
 
 
 
-    <div id="bank-tax">Tax Amount: <span id="tax">_</span></div>
+  <div id="bank-tax">Tax Amount: <span id="tax">_</span></div>
 
-    <form id="tax-form">
-      <label for="tax-rate">Rate: </label>
+  <form id="tax-form">
+    <label for="tax-rate">Rate: </label>
 
-      <input
-        type="number"
-        id="tax-rate"
-        name="tax-rate"
-        min="0"
-        max="999999"
-        placeholder="Tax-rate"
-      />
+    <input type="number" id="tax-rate" name="tax-rate" min="0" max="999999" placeholder="Tax-rate" />
 
-      <label for="tot">Total: </label>
+    <label for="tot">Total: </label>
 
-      <input
-        type="number"
-        id="tot"
-        name="tot"
-        min="0"
-        max="999999"
-        placeholder="Enter Amount to tot"
-      />
+    <input type="number" id="tot" name="tot" min="0" max="999999" placeholder="Enter Amount to tot" />
 
-      <input type="submit" value="Git me Money!" />
+    <input type="submit" value="Git me Money!" />
   </form>
 
 
@@ -68,51 +42,62 @@
 
   <div id="Area-of-a-circle">Account Total: <span id="circle">_</span></div>
   <form id="circle-form">
-      <label for= "radius">Radius: </label>
+    <label for="radius">Radius: </label>
 
-      <input
-        type="number"
-        id= "radius"
-        name= "radius"
-        min="0"
-        max="999999"
-        placeholder="Enter Radius"
-      />
+    <input type="number" id="radius" name="radius" min="0" max="999999" placeholder="Enter Radius" />
 
-      <input type="submit" value="Get Circle Area Answer" />
+    <input type="submit" value="Get Circle Area Answer" />
   </form>
 
 
 
   <div id="area-of-a-hypotenuse">Account Total: <span id="hypotenuse">_</span></div>
   <form id="hypotenuse-form">
-      <label for= "a">A: </label>
+    <label for="a">A: </label>
 
-      <input
-        type="number"
-        id= "adjacent"
-        name= "a"
-        min="0"
-        max="999999"
-        placeholder="Enter A"
-      />
-      <label for= "b">B: </label>
+    <input type="number" id="adjacent" name="a" min="0" max="999999" placeholder="Enter A" />
+    <label for="b">B: </label>
 
-      <input
-        type="number"
-        id= "opposite"
-        name= "b"
-        min="0"
-        max="999999"
-        placeholder="Enter B"
-      />
+    <input type="number" id="opposite" name="b" min="0" max="999999" placeholder="Enter B" />
 
-      <input type="submit" value="Get hypotenuse Area Answer" />
+    <input type="submit" value="Get hypotenuse Area Answer" />
+  </form>
+
+
+
+
+  <div id="formula-for-force">Force: <span id="force">_</span></div>
+
+  <form id="force-form">
+    <label for="mass">M: </label>
+
+    <input type="number" id="mass" name="M" min="0" max="999999" placeholder="Enter mass" />
+
+    <input type="submit" value="Get force answer!" />
+  </form>
+
+
+
+  <div id="volume-form">Volume: <span id="volume">_</span></div>
+
+  <form id="formula-for-volume">
+    <label for="width">A: </label>
+
+    <input type="number" id="width" name="A" min="0" max="999999" placeholder="Enter A" />
+
+    <label for="length">B: </label>
+    <input type="number" id="length" name="B" min="0" max="999999" placeholder="Enter B" />
+
+    <label for="height">C: </label>
+    <input type="number" id="height" name="C" min="0" max="999999" placeholder="Enter C" />
+
+
+    <input type="submit" value="Get volume answer!" />
   </form>
 
   
- 
-  </body>
 
-  <script src="./script.js"></script>
+  </div>
+</body>
+<script src="./script.js"></script>
 </html>
